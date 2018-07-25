@@ -43,7 +43,7 @@ public class stepdefinations {
 	public void user_should_successfully_login() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		 driver_1.findElement(By.xpath("//input[@type='submit']")).click();
-		 driver_1.findElement(By.xpath("/html/body/div[4]/div/ul/li[2]/a")).click();
+		driver_1.quit();
 	}
 
 }
