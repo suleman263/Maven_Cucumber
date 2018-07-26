@@ -1,4 +1,4 @@
-package runner;
+package Runner_Flight;
 
 import org.junit.runner.RunWith;
 
@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features = "Feature",glue={"step_definations"}
+		features = "Feature_DemoFlight",glue={"Flight_Step_Def"}
 				)
-public class test_runner {
+public class Flight_StepDef {
 
 }
