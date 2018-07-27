@@ -41,6 +41,6 @@ public class Login_screen {
 	@Then("^user able to start the flight booking$")
 	public void user_able_to_start_the_flight_booking() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	   
+		driver_1.quit();
 	}
 }
